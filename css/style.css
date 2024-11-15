@@ -1,0 +1,487 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Zilla+Slab+Highlight:wght@400;700&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -webkit-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5;
+  --color-base-light-blue: #ececec;
+  font-family: "Arial", sans-serif;
+}
+
+  /* ALIGN TRABALHA EIXO Y */
+  /* JUSTIFY TRABALHA EIXO X */
+
+.app {
+  width: 80%;
+  margin: auto;
+
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  margin-top: 0rem;
+}
+
+.header-left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  gap: 0.5rem;
+  height: 5rem;
+}
+
+header .menu-recolhido{
+  width: 2rem;
+  padding-bottom: 0.8rem;
+  margin-right: 0.5rem;
+}
+
+header .header-left .logo-wiki{
+  width: 7rem;
+  height: 4rem;
+  object-fit: cover;
+
+}
+
+.header-center{
+  display: flex;
+  padding-left: 10%;
+  margin-left: 3rem;
+}
+
+header .input-search label{
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+}
+
+
+.input-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+header .header-center .input-search input {
+  width: 25rem;
+  height: 1.7rem;
+  padding: 0.5rem;
+  padding-left: 2rem;
+  border: 1px solid lightslategray;
+  border-radius: 0.2rem;
+
+  font-size: 0.9rem;
+  font-weight: 300;
+  align-items: center;
+
+}
+
+header .header-center .input-search .input-lupa {
+  position: absolute;
+  width: 1rem;
+  height: 0.9rem;
+  left: 0.7rem;
+}
+
+header .header-center .input-search .btn-search {
+  position: absolute;
+  width: 4.4rem;
+  height: 95%;
+  left: calc(100% - 4.5rem);
+  border: 0.1px;
+  border-left: 0.7px solid black;
+  border-start-end-radius: 3px;
+  border-end-end-radius: 3px;
+  background-color: var(--color-base-light-blue);
+  padding: 0.3rem 0.3rem;
+}
+
+header .header-center .input-search .btn-search:hover {
+  background-color: #fff;
+  cursor: pointer;
+}
+
+
+  /* ALIGN TRABALHA EIXO Y */
+  /* JUSTIFY TRABALHA EIXO X */
+
+
+header .header-right{
+  
+  padding-left: 30%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: right;
+}
+
+
+header .header-right ul{
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+header .header-right ul li a {
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+
+
+.main-header-wrapper {
+  display: flex;
+  margin-top: 2rem;
+}
+
+.main-header-wrapper h1 {
+  font-size: 1.5rem;
+}
+
+.main-header-wrapper span {
+  font-size: 0.8rem;
+}
+
+
+main .tools {
+  margin-top: .3rem;
+}
+
+main .tools hr {
+  color: lightslategray;
+}
+
+main .tools button img {
+  width: 8rem;
+  height: 3rem;
+  object-fit: cover;
+}
+
+main .tools-buttons {
+  display: flex;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  justify-content: flex-start
+}
+
+main .tools-buttons .btn-lingua {
+  align-self: flex-start;
+}
+
+
+main .tools-buttons .btn-right {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: auto;
+  gap: 2rem;
+}
+
+main .tools-buttons button {
+  border: none;
+  background: none; 
+}
+
+main .firs-sentence {
+  margin-top: 2rem;
+  text-align: justify;
+  font-size: 1.2rem;
+}
+
+main article {
+  display: flex;
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+}
+
+main article .article-left {
+  width: 70%;
+  margin-right: 2%;
+}
+
+
+
+main article .article-left .origem {
+
+  display: flex;
+  padding-left: 2rem;
+} 
+
+
+main article .article-left .origem-left {
+  width: 25%;
+} 
+
+main article .article-left .origem-left img {
+  width: 100%;
+  height: 15rem;
+  object-fit: cover;
+  margin-top: 2rem ;
+  margin-right: 3rem;
+} 
+
+main article .article-left .origem-left span {
+ font-size: 1.2rem;
+ margin-bottom: 5rem;
+} 
+
+main article .article-left .origem-right {
+  width: 75%;
+  text-align: justify;
+} 
+
+main article .article-left .origem-right p{
+  font-size: 1.5rem;
+} 
+
+
+
+main article p {
+  margin-bottom: 2rem;
+  text-align: justify;
+}
+
+main article .article-right {
+  width: 30%; 
+  background-color: #f8f9fa;
+  border: 0.1rem dotted ;
+}
+
+main article .article-right .right-title {
+  text-align: center;
+  background-color: #336633;
+  padding: 0.7rem;
+  font-size: 1rem;
+  color: rgb(233, 233, 233);
+}
+
+main article .article-right .img-article {
+  width: 90%;
+  margin: auto;
+  padding: 1rem;
+}
+
+main article .article-right .img-article img{
+  width: 100%;
+  object-fit: cover;
+}
+
+main article .article-right .span-description-img , p, a {
+  text-align: center;
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+
+main article .article-right .table-title-description, .footer-right-title {
+  margin-top: 10%;
+  text-align: center;
+  background-color: #0cf29d;
+  font-size: 1.0;
+  font-weight: 100;
+  padding: 0.5rem;
+}
+
+
+  /* ALIGN TRABALHA EIXO Y */
+  /* JUSTIFY TRABALHA EIXO X */
+
+main article .article-right .table-atributes table {
+  width: 90%;
+  max-height: 700px;
+  border-collapse: collapse;
+  margin: 10px auto;
+  text-align: center;
+  justify-content: left;
+  font-family: Arial, sans-serif;
+}
+
+main article .article-right .table-atributes th, td {
+  border: 0.1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+main article .article-right .span-description-notas, p, a {
+  text-align: center;
+  font-size: 1.1rem;
+  text-decoration: none;
+  padding: 1.5rem;
+}
+
+
+.origem {
+  display: block;
+}
+
+
+
+
+footer {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-top: 1px solid #e4e4e4;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+footer .footer-links {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+footer .footer-links a {
+  color: #0077d0;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+footer .footer-links a:hover {
+  text-decoration: underline;
+}
+
+footer .footer-info {
+  text-align: center;
+  margin-top: 10px;
+}
+
+footer .footer-info p {
+  margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1024px) {
+  header {
+    flex-wrap: wrap; /* Permite que os elementos quebrem linha */
+    justify-content: space-between; /* Espaça os elementos */
+    padding: 1rem 0; /* Ajusta o espaçamento */
+  }
+
+  .header-left,
+  .header-center,
+  .header-right {
+    width: 100%; /* Cada seção ocupa 100% da largura */
+    text-align: center; /* Centraliza o conteúdo */
+    margin-bottom: 1rem; /* Espaço entre as seções */
+    display: flex;
+  }
+
+  .header-center {
+    margin-left: 0; /* Remove a margem lateral */
+  }
+
+  header .input-search input {
+    width: 90%; /* Reduz a largura para caber em telas menores */
+    max-width: 25rem; /* Mantém o limite máximo */
+  }
+
+  header .header-right ul {
+    gap: 1rem; 
+    margin-top: 1rem;
+  }
+}
+
+
+
+
+@media (max-width: 764px) {
+  header {
+    flex-wrap: wrap; /* Permite que os elementos quebrem linha */
+    justify-content: space-between; /* Espaça os elementos */
+    padding: 1rem 0; /* Ajusta o espaçamento */
+
+  }
+
+  .header-left,
+  .header-center,
+  .header-right {
+    width: 100%; /* Cada seção ocupa 100% da largura */
+    text-align: center; /* Centraliza o conteúdo */
+    margin-bottom: 1rem; /* Espaço entre as seções */
+    display: block;
+  }
+
+  .header-center {
+    margin-left: 0; /* Remove a margem lateral */
+    text-align: center;
+  }
+
+  header .input-search input {
+    width: 90%; /* Reduz a largura para caber em telas menores */
+    max-width: 25rem; /* Mantém o limite máximo */
+  }
+
+  header .header-right ul {
+    gap: 1rem; /* Reduz o espaçamento entre os links */
+    justify-content: left;
+    
+  }
+
+  header .header-right li {
+    font-size: 5px;
+  }
+
+
+  main article {
+    display: block;
+    margin: auto;
+  }
+
+  main article .article-right  {
+    width: 100%;
+    display: block;
+  }
+
+  main article .article-right .table-atributes table {
+    width: 100%;
+  }
+
+  main article .article-left .origem-left {
+    width: 100%;
+  } 
+
+  main article .article-left .origem {
+
+    display: block;
+    width: 100%;
+  } 
+
+  main article .article-left .origem-right {
+    width: 100%;
+    text-align: justify;
+  } 
+
+
+
+}
+
+@media (max-width: 301px) {
+  header .input-search .input-wrapper, input {
+    display: none;
+  }
+}
