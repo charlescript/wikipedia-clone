@@ -23,6 +23,7 @@ Acesse o projeto localmente ou veja a estrutura diretamente no código. Este pro
 - **Tabela de Informações**: Apresenta detalhes do bombardeiro B-2 Spirit.
 - **Navegação Simples**: Links para funcionalidades como "Donativos", "Criar Conta", e "Entrar".
 
+[Clique no link abaixo e veja como ficou:](https://charlescript.github.io/wikipedia-clone)
 ---
 
 ## 📂 **Estrutura do Projeto**
@@ -44,4 +45,4 @@ git clone https://github.com/charlescript/wikipedia-clone.git
 
 
 
-[Clique no link abaixo e veja como ficou:](https://charlescript.github.io/wikipedia-clone/)
+[Clique no link abaixo e veja como ficou:](https://charlescript.github.io/wikipedia-clone)
